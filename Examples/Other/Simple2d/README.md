@@ -4,10 +4,10 @@
 
 |Data     |Two dimensional synthetic data
 |:--------|:---
-|Purpose  |Showcase how to train a simple CNTK network (CPU and GPU) and how to use it for scoring (decoding)
+|Purpose  |シンプルなCNTK networkにおいて学習させ（CPU and GPU）、どのように使用するかを提示
 |Network  |SimpleNetworkBuilder, 2 hidden layers with 50 sigmoid nodes each, cross entropy with softmax
-|Training |Stochastic gradient descent with momentum
-|Comments |There are two config files: Simple.config uses a single CPU or GPU, Multigpu.config uses data-parallel SGD for training on multiple GPUs
+|Training |momentを利用した確率的勾配降下法
+|Comments |2つのconfig fileが存在します：Simple.configは単一のCPUあるいはGPUに、Multigpu.configは複数GPU上でのdata-parallel SGDを利用した学習に利用してください。
 
 ## Running the example
 
